@@ -1,8 +1,12 @@
 import { ChakraProvider } from "@chakra-ui/react";
+import Theme from "../Theme";
+
+import "@fontsource/pt-sans";
+import "@fontsource/sora/500.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={Theme} resetCSS>
       <Component {...pageProps} />
     </ChakraProvider>
   );
