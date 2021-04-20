@@ -1,5 +1,7 @@
 import Head from "next/head";
-import { Box, Heading, Text } from "@chakra-ui/react";
+import { Box, Stack } from "@chakra-ui/react";
+import { Wrapper } from "../layout/index";
+import { About, Blog } from "../sections/index";
 
 export default function Home() {
   return (
@@ -7,8 +9,13 @@ export default function Home() {
       <Head>
         <title>Emadamerho-Atori Nefe</title>
       </Head>
-      <Heading>Chakra Portfolio Baby</Heading>
-      <Text>I am a text</Text>
+
+      <Wrapper>
+        <Stack spacing="10">
+          <About />
+          <Blog />
+        </Stack>
+      </Wrapper>
     </Box>
   );
 }
