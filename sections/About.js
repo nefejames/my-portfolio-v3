@@ -1,4 +1,4 @@
-import { Box, Heading, Text, Button, Stack } from "@chakra-ui/react";
+import { Box, Heading, Text, Stack } from "@chakra-ui/react";
 import { EmailIcon, Icon } from "@chakra-ui/icons";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { CustomLink } from "../components/index";
@@ -43,16 +43,6 @@ export default function About() {
           </Box>
         </Box>
       </Stack>
-
-      <Button
-        leftIcon={<EmailIcon />}
-        colorScheme="blue"
-        variant="solid"
-        marginTop={3}
-        background="whatsapp.700"
-      >
-        Get in touch
-      </Button>
     </Box>
   );
 }

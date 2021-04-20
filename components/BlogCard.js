@@ -1,6 +1,5 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function BlogCard() {
   return (
