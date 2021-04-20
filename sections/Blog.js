@@ -12,7 +12,7 @@ export default function Blog() {
         <BlogCard />
       </Grid>
 
-      <Box mt={10}>
+      {/* <Box mt={10}>
         <Heading as="h3" fontSize={["lg", "xl"]} mb={2}>
           My other writings
         </Heading>
@@ -39,7 +39,7 @@ export default function Blog() {
             </CustomLink>
           </ListItem>
         </List>
-      </Box>
+      </Box> */}
     </SectionContainer>
   );
 }

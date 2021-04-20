@@ -9,10 +9,17 @@ export default function About() {
       <Stack spacing="5">
         <Box>
           <Text fontSize={["lg", "xl"]}>
-            I'm Frontend web developer and technical writer from Nigeria. I'm
-            always learning something new. Of recent, I've been learning more
-            about the React Ecosystem, Next JS, Framer Motion, Auth0, Node JS,
-            Chakra UI and more.
+            I'm a Frontend web developer and technical writer from Nigeria. I
+            write write technical articles for{" "}
+            <CustomLink url="https://blog.logrocket.com/author/nefejames/">
+              LogRocket
+            </CustomLink>
+            {""} and
+            <CustomLink url="https://www.smashingmagazine.com/author/nefe-emadamerho-atori/">
+              {" "}
+              {""}
+              Smashing Mag.
+            </CustomLink>
           </Text>
 
           <Stack spacing={["5", "7"]} direction="row" mt={[2, 4]}>
