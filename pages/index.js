@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Box, Stack } from "@chakra-ui/react";
 import { Wrapper } from "../layout/index";
-import { About, Blog } from "../sections/index";
+import { About, Blog, Projects } from "../sections/index";
 
 export default function Home() {
   return (
@@ -11,8 +11,9 @@ export default function Home() {
       </Head>
 
       <Wrapper>
-        <Stack spacing="10">
+        <Stack spacing={["10", "20"]}>
           <About />
+          <Projects />
           <Blog />
         </Stack>
       </Wrapper>

@@ -1,5 +1,5 @@
-import { Box, Heading, Text } from "@chakra-ui/react";
 import Image from "next/image";
+import { Box, Heading, Text, Badge, Stack } from "@chakra-ui/react";
 
 export default function ProjectCard() {
   return (
@@ -14,10 +14,22 @@ export default function ProjectCard() {
       <Box p={5}>
         <Heading pb={2}>Project Title</Heading>
         <Text fontSize={["lg", "xl"]}>
-          A webshop with focus on storytelling and the high quality products
-          created by Andersen-Andersen, a Danish work-wear clothing
-          manufacturer.
+          Website for a dental practice, allowing the users to quickly get an
+          idea of the opening times and the working staff.
         </Text>
+
+        <Stack direction="row" mt={4} spacing={4}>
+          <Badge fontSize="md">react</Badge>
+          <Badge colorScheme="green" fontSize="md">
+            chakra ui
+          </Badge>
+          <Badge colorScheme="red" fontSize="md">
+            gsap
+          </Badge>
+          <Badge colorScheme="purple" fontSize="md">
+            vue
+          </Badge>
+        </Stack>
       </Box>
     </Box>
   );
