@@ -15,7 +15,7 @@ export default function About() {
             Chakra UI and more.
           </Text>
 
-          <Stack spacing="5" direction="row" mt={[2, 4]}>
+          <Stack spacing={["5", "7"]} direction="row" mt={[2, 4]}>
             <CustomLink url="https://github.com/nefejames">
               <Icon as={FaGithub} w={[6, 8]} h={[6, 8]} />
             </CustomLink>
@@ -26,6 +26,9 @@ export default function About() {
 
             <CustomLink url="https://www.linkedin.com/in/nefe-emadamerho-atori-a0233bb7/">
               <Icon as={FaLinkedin} w={[6, 8]} h={[6, 8]} />
+            </CustomLink>
+            <CustomLink url="mailto:nefejames@yahoo.com">
+              <Icon as={EmailIcon} w={[6, 8]} h={[6, 8]} />
             </CustomLink>
           </Stack>
         </Box>
