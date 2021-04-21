@@ -7,7 +7,7 @@ export default function About() {
   return (
     <Box maxW="700px" overflow="hidden">
       <Heading paddingBottom={2} color="#00DDFF" fontSize={["30px", "50px"]}>
-        Hi. I'm Nefe Emadamerho
+        Hi. I'm Nefe Emadamerho-Atori
       </Heading>
       <Stack spacing="5">
         <Box>
