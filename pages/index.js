@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Box>
       <Head>
-        <title>Emadamerho-Atori Nefe</title>
+        <title>Emadamerho-Atori || Frontend Web Developer</title>
       </Head>
 
       <Wrapper>

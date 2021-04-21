@@ -1,9 +1,10 @@
 import Image from "next/image";
 import { Box, Heading, Text, Badge, Stack } from "@chakra-ui/react";
+import { Card } from "./index";
 
 export default function ProjectCard() {
   return (
-    <Box borderRadius={2} background="whatsapp.200" boxShadow="md">
+    <Card>
       <Image
         width={200}
         height={120}
@@ -31,6 +32,6 @@ export default function ProjectCard() {
           </Badge>
         </Stack>
       </Box>
-    </Box>
+    </Card>
   );
 }

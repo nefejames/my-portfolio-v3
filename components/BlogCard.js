@@ -1,11 +1,12 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
 import Link from "next/link";
+import { Card } from "./index";
 
 export default function BlogCard() {
   return (
-    <Link href="#">
+    <Link href="https://www.google.com">
       <a>
-        <Box borderRadius={2} background="whatsapp.200" boxShadow="md">
+        <Card CardForBlog>
           <Box p={5}>
             <Heading pb={2}>Blog Title</Heading>
             <Text fontSize={["lg", "xl"]}>
@@ -14,7 +15,7 @@ export default function BlogCard() {
               manufacturer.
             </Text>
           </Box>
-        </Box>
+        </Card>
       </a>
     </Link>
   );
