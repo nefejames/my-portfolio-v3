@@ -5,7 +5,7 @@ const projectsData = [
   {
     id: 1,
     title: "ShipQuik Logisitcs",
-    details: "A proposed website for a logistics company based in Lagos.",
+    details: "A demo website for a logistics company based in Lagos.",
     tags: ["css", "js"],
     year: "2020",
     githubUrl: "https://github.com/nefejames/shiq-quik",
