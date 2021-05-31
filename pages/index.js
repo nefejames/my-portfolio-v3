@@ -1,20 +1,21 @@
 import Head from "next/head";
 import { Box, Stack } from "@chakra-ui/react";
 import { Wrapper } from "../layout/index";
-import { About, Blog, Projects } from "../sections/index";
+import { About, Skills, Blog, Projects, Footer } from "../sections/index";
 
 export default function Home() {
   return (
     <Box>
       <Head>
-        <title>Emadamerho-Atori || Frontend Web Developer</title>
+        <title>Emadamerho-Atori | Frontend Web Developer</title>
       </Head>
 
       <Wrapper>
-        <Stack spacing={["10", "20"]}>
+        <Stack spacing={["12"]}>
           <About />
+          <Skills />
           <Projects />
-          <Blog />
+          <Footer />
         </Stack>
       </Wrapper>
     </Box>
