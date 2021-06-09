@@ -4,6 +4,23 @@ import { ProjectCard, SectionContainer } from "../components/index";
 const projectsData = [
   {
     id: 1,
+    title: "Spaces Website",
+    details: "A practice site for a digital company, Spaces.",
+    tags: ["Next.js", "styled-components"],
+    year: "2021",
+    githubUrl: "https://github.com/nefejames/spaces-website",
+    liveUrl: "https://spaces-website.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "Acorn & Mustard (WIP)",
+    details: "A website for a legal agency in Lagos, Nigeria.",
+    tags: ["Next.js", "styled-components"],
+    year: "2021",
+    liveUrl: "https://acorn-and-mustard.vercel.app/",
+  },
+  {
+    id: 2,
     title: "ShipQuik Logisitcs",
     details: "A demo website for a logistics company based in Lagos.",
     tags: ["css", "js"],
@@ -12,7 +29,7 @@ const projectsData = [
     liveUrl: "https://daddynefs-shipquik.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Recipe App",
     details:
       "An application to search for different recipes built using the Edamam API. ",
@@ -22,7 +39,7 @@ const projectsData = [
     liveUrl: "https://daddynefs-recipe.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Image Search App",
     details:
       "An application to search through different pictures built using the Pixalbay API.",
@@ -32,7 +49,7 @@ const projectsData = [
     liveUrl: "https://daddynefs-image-search.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Geo-search app",
     details: "A weather data built using Google Maps and Autocomplete APIs. ",
     tags: ["css", "js"],

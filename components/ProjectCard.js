@@ -52,9 +52,12 @@ export default function ProjectCard({
         </Stack>
 
         <Stack spacing={["5", "7"]} direction="row" mt={6}>
-          <Link href={githubUrl} isExternal color="#00DDFF">
-            Github <ExternalLinkIcon />
-          </Link>
+          {githubUrl && (
+            <Link href={githubUrl} isExternal color="#00DDFF">
+              Github <ExternalLinkIcon />
+            </Link>
+          )}
+
           <Link href={liveUrl} isExternal color="#00DDFF">
             Live <ExternalLinkIcon />
           </Link>
