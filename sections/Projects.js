@@ -5,8 +5,9 @@ const projectsData = [
   {
     id: 1,
     title: "DivifyCore (WIP)",
-    details: "A website built with Svelte and GSAP. Why? Because Svelte!! ",
-    tags: ["Svelte", "GSAP"],
+    details:
+      "A website built with Svelte and Framer Motion. Why? Because Svelte!! ",
+    tags: ["Svelte", "Framer Motion"],
     year: "2021",
     githubUrl: "https://github.com/nefejames/divify-core",
     liveUrl: "https://stoic-carson-8ed644.netlify.app/",
