@@ -8,6 +8,8 @@ import {
   Flex,
   Spacer,
   Link,
+  Wrap,
+  WrapItem,
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Card } from "./index";
@@ -43,13 +45,15 @@ export default function ProjectCard({
         </Flex>
         <Text fontSize={["lg", "xl"]}>{details}</Text>
 
-        <Stack direction="row" mt={4} spacing={4}>
+        <Wrap mt={4} spacing={4}>
           {tags.map((tag, index) => (
-            <Badge fontSize="md" key={index}>
-              {tag}
-            </Badge>
+            <WrapItem>
+              <Badge fontSize="sm" key={index}>
+                {tag}
+              </Badge>
+            </WrapItem>
           ))}
-        </Stack>
+        </Wrap>
 
         <Stack spacing={["5", "7"]} direction="row" mt={6}>
           {githubUrl && (
