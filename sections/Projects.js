@@ -4,6 +4,24 @@ import { ProjectCard, SectionContainer } from "../components/index";
 const projectsData = [
   {
     id: 1,
+    title: "CheckVendoor",
+    details:
+      "Vendoor is where you go to verify vendors before you buy. Vendoor is a transparent way for customers and companies to engage and share experiences.",
+    tags: ["Next.js", "styled-components"],
+    year: "2021",
+
+    liveUrl: "https://www.checkvendoor.com/",
+  },
+  {
+    id: 2,
+    title: "Cardilas",
+    details: "Cardilas makes buying cars easy for Nigerians",
+    tags: ["Next.js", "styled-components"],
+    year: "2021",
+    liveUrl: "https://ceedcap-cardilas.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Contentful Recipe App",
     details: "A recipe app built with Contentful CMS and Next.js",
     tags: ["Next.js", "styled-components", "CMS"],
@@ -12,7 +30,7 @@ const projectsData = [
     liveUrl: "https://contentful-recipe-app.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "DivifyCore (WIP)",
     details: "A website built with Svelte and GSAP. Why? Because Svelte!! ",
     tags: ["Svelte", "GSAP"],
@@ -21,7 +39,7 @@ const projectsData = [
     liveUrl: "https://stoic-carson-8ed644.netlify.app/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Spaces Website",
     details: "A practice site for a digital company, Spaces.",
     tags: ["Next.js", "styled-components"],
@@ -30,7 +48,7 @@ const projectsData = [
     liveUrl: "https://spaces-website.vercel.app/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Acorn & Mustard (WIP)",
     details: "A website for a legal agency in Lagos, Nigeria.",
     tags: ["Next.js", "styled-components"],
@@ -38,7 +56,7 @@ const projectsData = [
     liveUrl: "https://acorn-and-mustard.vercel.app/",
   },
   {
-    id: 5,
+    id: 7,
     title: "ShipQuik Logisitcs",
     details: "A demo website for a logistics company based in Lagos.",
     tags: ["css", "js"],
@@ -47,7 +65,7 @@ const projectsData = [
     liveUrl: "https://daddynefs-shipquik.netlify.app/",
   },
   {
-    id: 6,
+    id: 8,
     title: "Recipe App",
     details:
       "An application to search for different recipes built using the Edamam API. ",
@@ -57,7 +75,7 @@ const projectsData = [
     liveUrl: "https://daddynefs-recipe.netlify.app/",
   },
   {
-    id: 7,
+    id: 9,
     title: "Image Search App",
     details:
       "An application to search through different pictures built using the Pixalbay API.",
@@ -67,7 +85,7 @@ const projectsData = [
     liveUrl: "https://daddynefs-image-search.netlify.app/",
   },
   {
-    id: 8,
+    id: 10,
     title: "Geo-search app",
     details: "A weather data built using Google Maps and Autocomplete APIs. ",
     tags: ["css", "js"],
