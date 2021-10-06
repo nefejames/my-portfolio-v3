@@ -1,12 +1,12 @@
-import { Grid } from "../layout/index";
-import { ProjectCard, SectionContainer } from "../components/index";
-import projectsData from "../projectsData";
+import { Grid } from "@layout/index";
+import { ProjectCard, SectionContainer } from "@components/index";
+import projectsData from "@root/projectsData";
 export default function Projects() {
   return (
     <SectionContainer sectionTitle="My Projects">
       <Grid>
-        {projectsData.map((project) => (
-          <ProjectCard key={project.id} {...project} />
+        {projectsData.map((project, i) => (
+          <ProjectCard key={i} {...project} />
         ))}
       </Grid>
     </SectionContainer>

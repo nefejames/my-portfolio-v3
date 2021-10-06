@@ -1,5 +1,5 @@
 import { ChakraProvider } from "@chakra-ui/react";
-import Theme from "../Theme";
+import Theme from "@root/Theme";
 
 import "@fontsource/pt-sans";
 import "@fontsource/sora/500.css";

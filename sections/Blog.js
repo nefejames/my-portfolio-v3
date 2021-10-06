@@ -1,7 +1,7 @@
 import { List, ListItem, ListIcon, Heading, Box } from "@chakra-ui/react";
 import { MdCheckCircle } from "react-icons/md";
-import { Grid } from "../layout/index";
-import { BlogCard, SectionContainer, CustomLink } from "../components/index";
+import { Grid } from "@layout/index";
+import { BlogCard, SectionContainer, CustomLink } from "@components/index";
 
 export default function Blog() {
   return (

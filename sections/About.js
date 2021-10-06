@@ -2,7 +2,7 @@ import { Box, Heading, Text, Stack, Link } from "@chakra-ui/react";
 import { EmailIcon, Icon, ExternalLinkIcon } from "@chakra-ui/icons";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { SiCodesandbox } from "react-icons/si";
-import { CustomLink } from "../components";
+import { CustomLink } from "@components/index";
 
 export default function About() {
   return (

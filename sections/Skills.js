@@ -1,5 +1,5 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
-import { SectionContainer } from "../components";
+import { SectionContainer } from "@components/index";
 
 export default function Skills() {
   return (
