@@ -5,10 +5,10 @@ const projectsData = [
       "A dashboard layout built with Next.js and Chakra UI - the images are hosted on Cloudinary",
     tags: ["Next.js", " Chakra UI", "Cloudinary"],
     year: "2021",
-    liveUrl: "next-chakra-dashboard.vercel.app/",
+    liveUrl: "https://next-chakra-dashboard.vercel.app/",
   },
   {
-    title: "Acorn & Mustard (WIP)",
+    title: "Acorn & Mustard",
     details: "A website for a legal agency in Lagos, Nigeria.",
     tags: ["Next.js", "styled-components", "Contentful CMS"],
     year: "2021",
