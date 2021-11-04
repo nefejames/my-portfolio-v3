@@ -17,7 +17,7 @@ export default function About() {
       </Heading>
       <Stack spacing="5">
         <Box>
-          <Text fontSize={["lg", "xl"]}>
+          <Text>
             I'm a{" "}
             <Text as="span" fontWeight="bold" color="#00DDFF">
               {" "}

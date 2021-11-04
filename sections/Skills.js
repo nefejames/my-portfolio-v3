@@ -9,7 +9,7 @@ export default function Skills() {
             Skills
           </Heading> */}
         <Box>
-          <Text fontSize={["lg", "xl"]}>
+          <Text>
             HTML, CSS, SASS, JavaScript, Git, React, Redux, Svelte, Chakra UI,
             Material UI, Firebase, APIs (GraphQL and REST)
           </Text>

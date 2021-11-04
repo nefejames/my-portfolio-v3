@@ -43,7 +43,7 @@ export default function ProjectCard({
             {year}
           </Text>
         </Flex>
-        <Text fontSize={["lg", "xl"]}>{details}</Text>
+        <Text>{details}</Text>
 
         <Wrap mt={4} spacing={4}>
           {tags.map((tag, index) => (

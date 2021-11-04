@@ -6,7 +6,7 @@ import "@fontsource/sora/500.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ChakraProvider theme={Theme} resetCSS>
+    <ChakraProvider theme={Theme}>
       <Component {...pageProps} />
     </ChakraProvider>
   );
