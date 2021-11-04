@@ -6,6 +6,7 @@ const projectsData = [
     tags: ["Next.js", " Chakra UI", "Cloudinary"],
     year: "2021",
     liveUrl: "https://next-chakra-dashboard.vercel.app/",
+    githubUrl: "https://github.com/nefejames/next-chakra-dashboard",
   },
   {
     title: "Acorn & Mustard",
@@ -35,6 +36,7 @@ const projectsData = [
     tags: ["Next.js", "styled-components", "CMS"],
     year: "2021",
     liveUrl: "https://contentful-recipe-app.vercel.app/",
+    githubUrl: "https://github.com/nefejames/contentful-recipe-app",
   },
   {
     title: "DivifyCore (WIP)",
@@ -42,12 +44,14 @@ const projectsData = [
     tags: ["Svelte", "GSAP"],
     year: "2021",
     liveUrl: "https://stoic-carson-8ed644.netlify.app/",
+    githubUrl: "https://github.com/nefejames/divify-core",
   },
   {
     title: "Spaces Website",
     details: "A practice site for a digital company, Spaces.",
     tags: ["Next.js", "styled-components"],
     year: "2021",
+    liveUrl: "https://spaces-website.vercel.app/",
     githubUrl: "https://github.com/nefejames/spaces-website",
   },
 
@@ -65,6 +69,7 @@ const projectsData = [
     tags: ["css", "react"],
     year: "2020",
     liveUrl: "https://daddynefs-recipe.netlify.app/",
+    githubUrl: "https://github.com/nefejames/react-recipe-app",
   },
   {
     title: "Image Search App",
@@ -73,6 +78,7 @@ const projectsData = [
     tags: ["sass", "js"],
     year: "2020",
     liveUrl: "https://daddynefs-image-search.netlify.app/",
+    githubUrl: "https://github.com/nefejames/image-search-app",
   },
   {
     title: "Geo-search app",
