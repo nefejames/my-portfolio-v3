@@ -6,7 +6,6 @@ const Theme = extendTheme({
       "html, body": {
         background: "#222",
         color: "#CDCDD4",
-        fontFamily: `'Cabin', sans-serif`,
       },
       p: {
         fontSize: "2xl",
@@ -21,6 +20,10 @@ const Theme = extendTheme({
       400: "#e2e6e3",
       500: "rgb(43, 46, 43)",
     },
+  },
+  fonts: {
+    body: `'Cabin', sans-serif`,
+    heading: `'Cabin', sans-serif`,
   },
 });
 export default Theme;

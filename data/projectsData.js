@@ -1,5 +1,13 @@
 const projectsData = [
   {
+    title: "Chakra UI Discord Clone",
+    details: "A clone of Discord's web application built with Chakra UI",
+    tags: ["Next.js", "Chakra UI"],
+    year: "2021",
+    liveUrl: "https://chakra-discord-clone.vercel.app/servers/1/channels/1",
+    githubUrl: "https://github.com/nefejames/chakra-discord-clone",
+  },
+  {
     title: "Next.js & Chakra Dashboard",
     details:
       "A dashboard layout built with Next.js and Chakra UI - the images are hosted on Cloudinary",
