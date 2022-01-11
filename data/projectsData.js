@@ -3,7 +3,7 @@ const projectsData = [
     title: "Rick and Morty GraphQL",
     details:
       "A basic app I use to practice working with GraphQL and Apollo. Built with Rick and Morty GraphQL API",
-    tags: ["Next.js", "Chakra UI, GraphQL, Apollo"],
+    tags: ["Next.js", "Chakra UI", "GraphQL", "Apollo"],
     year: "2022",
     liveUrl: "https://rick-and-morty-graphql-wine.vercel.app",
     githubUrl: "https://github.com/nefejames/rick-and-morty-graphql",
