@@ -1,6 +1,11 @@
 import { Box } from "@chakra-ui/react";
 
-export default function Card({ children, CardForBlog }) {
+interface CardProps {
+  CardForBlog?: boolean;
+  children: JSX.Element;
+}
+
+export default function Card({ children, CardForBlog }: CardProps) {
   return (
     <Box
       borderRadius="md"
