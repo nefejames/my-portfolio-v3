@@ -2,7 +2,8 @@ import { Box, Heading, Text, Stack, Link } from "@chakra-ui/react";
 import { EmailIcon, Icon, ExternalLinkIcon } from "@chakra-ui/icons";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { SiCodesandbox } from "react-icons/si";
-import { CustomLink } from "@components/index";
+import { CustomLink, WritingLink } from "@components/index";
+import writingData from "@data/writingData";
 
 export default function About() {
   return (
@@ -29,25 +30,14 @@ export default function About() {
               Technical Writer{" "}
             </Text>{" "}
             from Nigeria. You can find my articles on {""}
-            <Link
-              href="https://blog.logrocket.com/author/nefejames/"
-              isExternal
-              color="#00DDFF"
-            >
-              {" "}
-              LogRocket
-            </Link>
-            ,{" "}
-            <Link
-              href="https://www.smashingmagazine.com/author/nefe-emadamerho-atori/"
-              isExternal
-              color="#00DDFF"
-            >
-              {""}
-              Smashing Magazine
-            </Link>{" "}
+            {writingData.map((data, i) => (
+              <>
+                {""} <WritingLink key={i} href={data.href} label={data.label} />
+                ,{""}
+              </>
+            ))}{" "}
             {""}
-            and {""}
+            and{" "}
             <Link
               href="https://hashnode.com/@nefejames"
               isExternal

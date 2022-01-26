@@ -1,4 +1,13 @@
-const projectsData = [
+interface Project {
+  title: string;
+  details: string;
+  tags: string[];
+  year: string;
+  liveUrl: string;
+  githubUrl?: string;
+}
+
+const projectsData: Project[] = [
   {
     title: "Rick and Morty GraphQL",
     details:
