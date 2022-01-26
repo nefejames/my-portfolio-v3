@@ -14,6 +14,15 @@ import {
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Card } from "./index";
 
+interface ProjectCardProps {
+  title: string;
+  details: string;
+  tags: string[];
+  year: string;
+  liveUrl: string;
+  githubUrl?: string;
+}
+
 export default function ProjectCard({
   title,
   details,
@@ -21,7 +30,7 @@ export default function ProjectCard({
   year,
   githubUrl,
   liveUrl,
-}) {
+}: ProjectCardProps) {
   return (
     <Card>
       {/* <Image

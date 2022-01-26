@@ -5,7 +5,7 @@ interface CardProps {
   children: JSX.Element;
 }
 
-export default function Card({ children, CardForBlog }: CardProps) {
+export default function Card({ children, CardForBlog = false }: CardProps) {
   return (
     <Box
       borderRadius="md"
