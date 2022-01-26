@@ -1,7 +1,7 @@
 import { List, ListItem, ListIcon, Heading, Box } from "@chakra-ui/react";
 import { MdCheckCircle } from "react-icons/md";
 import { Grid } from "@layout/index";
-import { BlogCard, SectionContainer, CustomLink } from "@components/index";
+import { BlogCard, SectionContainer, SocialLink } from "@components/index";
 
 export default function Blog() {
   return (
@@ -19,10 +19,10 @@ export default function Blog() {
 
         <List spacing={3}>
           <ListItem>
-            <CustomLink url="http://www.google.com">
+            <SocialLink url="http://www.google.com">
               <ListIcon as={MdCheckCircle} color="green.500" />
               Framer Motion, LogRocket
-            </CustomLink>
+            </SocialLink>
           </ListItem>
 
           <ListItem>

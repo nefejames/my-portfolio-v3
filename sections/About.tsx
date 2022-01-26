@@ -2,7 +2,7 @@ import { Box, Heading, Text, Stack, Link } from "@chakra-ui/react";
 import { EmailIcon, Icon, ExternalLinkIcon } from "@chakra-ui/icons";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { SiCodesandbox } from "react-icons/si";
-import { CustomLink, WritingLink } from "@components/index";
+import { SocialLink, WritingLink } from "@components/index";
 import writingData from "@data/writingData";
 
 export default function About() {
@@ -49,23 +49,23 @@ export default function About() {
           </Text>
 
           <Stack spacing={["5", "7"]} direction="row" mt={[9]}>
-            <CustomLink url="https://github.com/nefejames">
+            <SocialLink url="https://github.com/nefejames">
               <Icon as={FaGithub} w={[6, 6]} h={[6, 6]} />
-            </CustomLink>
+            </SocialLink>
 
-            <CustomLink url="https://twitter.com/nefe_james/">
+            <SocialLink url="https://twitter.com/nefe_james/">
               <Icon as={FaTwitter} w={[6, 6]} h={[6, 6]} />
-            </CustomLink>
-            <CustomLink url="https://codesandbox.io/u/nefejames">
+            </SocialLink>
+            <SocialLink url="https://codesandbox.io/u/nefejames">
               <Icon as={SiCodesandbox} w={[6, 6]} h={[6, 6]} />
-            </CustomLink>
-            <CustomLink url="https://www.linkedin.com/in/nefe-emadamerho-atori-a0233bb7/">
+            </SocialLink>
+            <SocialLink url="https://www.linkedin.com/in/nefe-emadamerho-atori-a0233bb7/">
               <Icon as={FaLinkedin} w={[6, 6]} h={[6, 6]} />
-            </CustomLink>
+            </SocialLink>
 
-            <CustomLink url="mailto:nefejames@yahoo.com">
+            <SocialLink url="mailto:nefejames@yahoo.com">
               <Icon as={EmailIcon} w={[6, 6]} h={[6, 6]} />
-            </CustomLink>
+            </SocialLink>
           </Stack>
         </Box>
       </Stack>
