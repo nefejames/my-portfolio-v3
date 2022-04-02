@@ -17,6 +17,10 @@ const writingData: Writing[] = [
     href: "https://strapi.io/blog/how-to-choose-a-headless-cms",
     label: "Strapi",
   },
+  {
+    href: "https://birdeatsbug.com/blog/creating-hover-effects-with-tailwind-css",
+    label: "Bird Eats Bug",
+  },
 ];
 
 export default writingData;

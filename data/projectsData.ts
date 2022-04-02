@@ -9,6 +9,14 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: "Angular Crypto Site",
+    details: "A basic site I built to learn and get more familiar with Angular",
+    tags: ["Angular", "Sass"],
+    year: "2022",
+    liveUrl: "https://angular-crypto-site.vercel.app/",
+    githubUrl: "https://github.com/nefejames/angular-crypto-site",
+  },
+  {
     title: "Rick and Morty GraphQL",
     details:
       "A basic app I use to practice working with GraphQL and Apollo. Built with Rick and Morty GraphQL API",
