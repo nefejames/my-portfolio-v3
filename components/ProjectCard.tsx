@@ -13,15 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Card } from "./index";
-
-interface ProjectCardProps {
-  title: string;
-  details: string;
-  tags: string[];
-  year: string;
-  liveUrl: string;
-  githubUrl?: string;
-}
+import { Project } from "@data/projectsData";
 
 export default function ProjectCard({
   title,
@@ -30,7 +22,7 @@ export default function ProjectCard({
   year,
   githubUrl,
   liveUrl,
-}: ProjectCardProps) {
+}: Project) {
   return (
     <Card>
       {/* <Image
@@ -71,9 +63,11 @@ export default function ProjectCard({
             </Link>
           )}
 
-          <Link href={liveUrl} isExternal color="#00DDFF">
-            Live <ExternalLinkIcon />
-          </Link>
+          {liveUrl && (
+            <Link href={liveUrl} isExternal color="#00DDFF">
+              Live <ExternalLinkIcon />
+            </Link>
+          )}
         </Stack>
       </Box>
     </Card>

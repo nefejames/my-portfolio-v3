@@ -1,25 +1,48 @@
-interface Project {
+export interface Project {
   title: string;
   details: string;
   tags: string[];
   year: string;
-  liveUrl: string;
+  liveUrl?: string;
   githubUrl?: string;
 }
 
 const projectsData: Project[] = [
   {
+    title: "Angular Contact Manager",
+    details: "A GitHub query app built with Angular and GitHub's Rest API.",
+    tags: ["Angular", "Bootstrap"],
+    year: "2022",
+    githubUrl: "https://github.com/nefejames/angular-contact-manager",
+  },
+  {
+    title: "Angular Contact Manager",
+    details:
+      "A basic CRUD app built with Angular and json-server. I learned about routing in Angular and how to query route params while building this.",
+    tags: ["Angular", "Bootstrap", "json-server"],
+    year: "2022",
+    githubUrl: "https://github.com/nefejames/angular-contact-manager",
+  },
+  {
     title: "Angular Crypto Site",
-    details: "A basic site I built to learn and get more familiar with Angular",
+    details:
+      "A basic site I built to learn and get more familiar with Angular.",
     tags: ["Angular", "Sass"],
     year: "2022",
     liveUrl: "https://angular-crypto-site.vercel.app/",
     githubUrl: "https://github.com/nefejames/angular-crypto-site",
   },
   {
+    title: "Angular Todo App",
+    details: "A simple todo app to learn the basics of Angular.",
+    tags: ["Angular", "json-server"],
+    year: "2022",
+    githubUrl: "https://github.com/nefejames/angular-todo-app",
+  },
+  {
     title: "Rick and Morty GraphQL",
     details:
-      "A basic app I use to practice working with GraphQL and Apollo. Built with Rick and Morty GraphQL API",
+      "A basic app I use to practice working with GraphQL and Apollo. Built with Rick and Morty GraphQL API.",
     tags: ["Next.js", "Chakra UI", "GraphQL", "Apollo"],
     year: "2022",
     liveUrl: "https://rick-and-morty-graphql-wine.vercel.app",
@@ -27,7 +50,7 @@ const projectsData: Project[] = [
   },
   {
     title: "Chakra UI Discord Clone",
-    details: "A clone of Discord's web application built with Chakra UI",
+    details: "A clone of Discord's web application built with Chakra UI.",
     tags: ["Next.js", "Chakra UI"],
     year: "2021",
     liveUrl: "https://chakra-discord-clone.vercel.app/servers/1/channels/1",
@@ -36,7 +59,7 @@ const projectsData: Project[] = [
   {
     title: "Next.js & Chakra Dashboard",
     details:
-      "A dashboard layout built with Next.js and Chakra UI - the images are hosted on Cloudinary",
+      "A dashboard layout built with Next.js and Chakra UI - the images are hosted on Cloudinary.",
     tags: ["Next.js", " Chakra UI", "Cloudinary"],
     year: "2021",
     liveUrl: "https://next-chakra-dashboard.vercel.app/",
@@ -59,14 +82,14 @@ const projectsData: Project[] = [
   },
   {
     title: "Cardilas",
-    details: "Cardilas makes buying cars easy for Nigerians",
+    details: "Cardilas makes buying cars easy for Nigerians.",
     tags: ["Next.js", "styled-components"],
     year: "2021",
     liveUrl: "https://ceedcap-cardilas.vercel.app/",
   },
   {
     title: "Contentful Recipe App",
-    details: "A recipe app built with Contentful CMS and Next.js",
+    details: "A recipe app built with Contentful CMS and Next.js.",
     tags: ["Next.js", "styled-components", "CMS"],
     year: "2021",
     liveUrl: "https://contentful-recipe-app.vercel.app/",
@@ -99,7 +122,7 @@ const projectsData: Project[] = [
   {
     title: "Recipe App",
     details:
-      "An application to search for different recipes built using the Edamam API. ",
+      "An application to search for different recipes built using the Edamam API.",
     tags: ["css", "react"],
     year: "2020",
     liveUrl: "https://daddynefs-recipe.netlify.app/",
@@ -116,7 +139,7 @@ const projectsData: Project[] = [
   },
   {
     title: "Geo-search app",
-    details: "A weather data built using Google Maps and Autocomplete APIs. ",
+    details: "A weather data built using Google Maps and Autocomplete APIs.",
     tags: ["css", "js"],
     year: "2019",
     githubUrl: "https://github.com/nefejames/DevC-GeoSearch",
