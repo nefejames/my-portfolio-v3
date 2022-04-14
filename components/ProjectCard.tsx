@@ -34,7 +34,7 @@ export default function ProjectCard({
 
       <Box p={5}>
         <Flex>
-          <Heading as="h3" fontSize="25px" pb={2} color="#00DDFF">
+          <Heading as="h3" fontSize={["22px", "25px"]} pb={2} color="#00DDFF">
             {title}
           </Heading>
 
