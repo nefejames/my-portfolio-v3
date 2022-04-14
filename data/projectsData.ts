@@ -9,7 +9,7 @@ export interface Project {
 
 const projectsData: Project[] = [
   {
-    title: "Angular Contact Manager",
+    title: "GitHub Search App",
     details: "A GitHub query app built with Angular and GitHub's Rest API.",
     tags: ["Angular", "Bootstrap"],
     year: "2022",
