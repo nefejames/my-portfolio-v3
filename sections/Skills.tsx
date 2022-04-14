@@ -10,8 +10,8 @@ export default function Skills() {
           </Heading> */}
         <Box>
           <Text>
-            HTML, CSS, SASS, JavaScript, Git, React, Redux, Svelte, Chakra UI,
-            Material UI, Firebase, APIs (GraphQL and REST)
+            HTML, CSS, SASS, JavaScript, Git, React, Svelte, Angular, Chakra UI,
+            Material UI, Firebase, APIs (GraphQL and REST).
           </Text>
         </Box>
       </Box>
