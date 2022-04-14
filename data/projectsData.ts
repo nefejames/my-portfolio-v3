@@ -18,7 +18,7 @@ const projectsData: Project[] = [
   {
     title: "Angular Contact Manager",
     details:
-      "A basic CRUD app built with Angular and json-server. I learned about routing in Angular and how to query route params while building this.",
+      "A basic CRUD app. I learned about routing in Angular and how to query route params while building this.",
     tags: ["Angular", "Bootstrap", "json-server"],
     year: "2022",
     githubUrl: "https://github.com/nefejames/angular-contact-manager",
