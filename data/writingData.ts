@@ -18,6 +18,10 @@ const writingData: Writing[] = [
     label: "Strapi",
   },
   {
+    href: "https://mediajams.dev/author/emadamerho-atori-nefe",
+    label: "Media Jams",
+  },
+  {
     href: "https://birdeatsbug.com/blog/creating-hover-effects-with-tailwind-css",
     label: "Bird Eats Bug",
   },
