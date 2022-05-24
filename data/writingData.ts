@@ -22,7 +22,7 @@ const writingData: Writing[] = [
     label: "Media Jams",
   },
   {
-    href: "https://birdeatsbug.com/blog/creating-hover-effects-with-tailwind-css",
+    href: "https://birdeatsbug.com/author/nefe-james",
     label: "Bird Eats Bug",
   },
 ];
