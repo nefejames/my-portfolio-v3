@@ -22,6 +22,14 @@ const writingData: Writing[] = [
     label: "Media Jams",
   },
   {
+    href: "https://buttercms.com/blog/author/nefe-emadamerho/",
+    label: "ButterCMS",
+  },
+  {
+    href: "https://prismic.io/blog/authors/nefe-emadamerho-atori",
+    label: "Prismic",
+  },
+  {
     href: "https://birdeatsbug.com/author/nefe-james",
     label: "Bird Eats Bug",
   },
