@@ -23,13 +23,18 @@ export default function About() {
             <Text as="span" fontWeight="bold" color="#00DDFF">
               {" "}
               Frontend Developer
-            </Text>{" "}
-            and{" "}
+            </Text>
+            ,
             <Text as="span" fontWeight="bold" color="#00DDFF">
               {" "}
-              Technical Writer{" "}
-            </Text>{" "}
-            from Nigeria. You can find my writing portfolio on {""}
+              Technical Writer
+            </Text>
+            , and
+            <Text as="span" fontWeight="bold" color="#00DDFF">
+              {" "}
+              Content Writer
+            </Text>
+            . You can find my writing portfolio on {""}
             {writingData.map((data, i) => (
               <>
                 {""} <WritingLink key={i} href={data.href} label={data.label} />
