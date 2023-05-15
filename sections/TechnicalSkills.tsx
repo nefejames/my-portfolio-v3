@@ -1,9 +1,9 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
 import { SectionContainer } from "@components/index";
 
-export default function Skills() {
+export default function TechnicalSkills() {
   return (
-    <SectionContainer sectionTitle="Skills">
+    <SectionContainer sectionTitle="Technical Skills">
       <Box>
         {/* <Heading as="h2" fontSize="35px" mb={[4, 8]}>
             Skills

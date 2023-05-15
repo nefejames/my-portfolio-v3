@@ -33,6 +33,10 @@ const writingData: Writing[] = [
     href: "https://birdeatsbug.com/author/nefe-james",
     label: "Bird Eats Bug",
   },
+  {
+    href: "https://dojah.io/blog",
+    label: "Dojah",
+  },
 ];
 
 export default writingData;

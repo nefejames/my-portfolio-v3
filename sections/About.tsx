@@ -29,7 +29,7 @@ export default function About() {
               {" "}
               Technical Writer{" "}
             </Text>{" "}
-            from Nigeria. You can find my articles on {""}
+            from Nigeria. You can find my writing portfolio on {""}
             {writingData.map((data, i) => (
               <>
                 {""} <WritingLink key={i} href={data.href} label={data.label} />
